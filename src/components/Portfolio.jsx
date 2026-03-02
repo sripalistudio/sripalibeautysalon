@@ -15,12 +15,6 @@ const Portfolio = () => {
   useEffect(() => {
     // 1. Static Initializer
     const staticImages = [
-      { id: 1, src: '/assets/gallery1.webp', caption: 'South Indian Bridal Look', category: 'Bridal' },
-      { id: 2, src: '/assets/gallery2.webp', caption: 'Elegant Saree Draping', category: 'Draping' },
-      { id: 3, src: '/assets/gallery3.webp', caption: 'Reception Makeover', category: 'Reception' },
-      { id: 4, src: '/assets/hero.webp', caption: 'Modern Bridal Finish', category: 'Bridal' },
-      { id: 5, src: '/assets/service_makeup.webp', caption: 'HD Makeup Excellence', category: 'Makeup' },
-      { id: 6, src: '/assets/service_hair.webp', caption: 'Intricate Hair styling', category: 'Hair' },
       { id: 7, src: '/assets/service_saree.webp', caption: 'Perfect Saree Silhouettes', category: 'Draping' },
       { id: 8, src: '/assets/gallery8.webp', caption: 'Flawless Bridal Makeup', category: 'Bridal', position: 'top' },
       { id: 9, src: '/assets/gallery9.webp', caption: 'Classic Wedding Style', category: 'Bridal', position: 'top' },

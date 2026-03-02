@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Clock, Send, Facebook, Instagram, Youtube, MessageCircle } from 'lucide-react';
+import { Mail, Phone, MapPin, Clock, Send, Instagram, Youtube, MessageCircle } from 'lucide-react';
 
 const Contact = () => {
     const [formState, setFormState] = useState({ name: '', phone: '', message: '' });
@@ -50,8 +50,9 @@ const Contact = () => {
                                     </div>
                                     <div>
                                         <h4 style={{ color: '#fff', fontSize: '1.1rem', marginBottom: '0.5rem' }}>Call Us</h4>
-                                        <p style={{ color: 'var(--color-text-secondary)', marginBottom: '0.5rem' }}>
+                                        <p style={{ color: 'var(--color-text-secondary)', marginBottom: '0.5rem', display: 'flex', flexDirection: 'column', gap: '0.2rem' }}>
                                             <a href="tel:+919841428097" style={{ color: 'inherit', textDecoration: 'none' }}>+91 98414 28097</a>
+                                            <a href="tel:04445028097" style={{ color: 'inherit', textDecoration: 'none' }}>044-45028097</a>
                                         </p>
                                         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.9rem', color: 'var(--color-text-muted)' }}>
                                             <Clock size={14} />
@@ -67,7 +68,7 @@ const Contact = () => {
                                     <div>
                                         <h4 style={{ color: '#fff', fontSize: '1.1rem', marginBottom: '0.5rem' }}>Email Us</h4>
                                         <p style={{ color: 'var(--color-text-secondary)' }}>
-                                            <a href="mailto:sripalistudio@gmail.com" style={{ color: 'inherit', textDecoration: 'none' }}>sripalistudio@gmail.com</a>
+                                            <a href="mailto:sripally@yahoo.com" style={{ color: 'inherit', textDecoration: 'none' }}>sripally@yahoo.com</a>
                                         </p>
                                     </div>
                                 </div>
@@ -79,10 +80,12 @@ const Contact = () => {
                                     <div>
                                         <h4 style={{ color: '#fff', fontSize: '1.1rem', marginBottom: '0.5rem' }}>Visit Us</h4>
                                         <p style={{ color: 'var(--color-text-secondary)', lineHeight: '1.6' }}>
-                                            No. 289,Waikiki complex,door no. 26,Purasawakkam high road, 7,<br />
-                                            next to BUHARI Restaurant / Take Away / Party Hall,<br />
-                                            Purasaiwakkam, Chennai, Tamil Nadu 600007<br />
-                                            <span style={{ fontSize: '0.9em', color: 'var(--color-text-muted)' }}>Landmark: next to BUHARI Restaurant</span>
+                                            <a href="https://maps.app.goo.gl/zku9SHip5iYZXwda8" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
+                                                No. 289,Waikiki complex,door no. 26,Purasawakkam high road, 7,<br />
+                                                next to BUHARI Restaurant / Take Away / Party Hall,<br />
+                                                Purasaiwakkam, Chennai, Tamil Nadu 600007<br />
+                                                <span style={{ fontSize: '0.9em', color: 'var(--color-text-muted)' }}>Landmark: next to BUHARI Restaurant</span>
+                                            </a>
                                         </p>
                                     </div>
                                 </div>
@@ -92,9 +95,6 @@ const Contact = () => {
                             <div>
                                 <h4 style={{ color: '#fff', fontSize: '1.1rem', marginBottom: '1rem' }}>Follow Us</h4>
                                 <div style={{ display: 'flex', gap: '1rem' }}>
-                                    <a href="https://www.facebook.com/share/1JjAazHEVD/" target="_blank" rel="noopener noreferrer" style={{ background: 'rgba(212, 175, 55, 0.1)', padding: '0.8rem', borderRadius: '50%', color: 'var(--color-gold)', display: 'flex', alignItems: 'center', justifyContent: 'center', transition: 'all 0.3s' }}>
-                                        <Facebook size={20} />
-                                    </a>
                                     <a href="https://www.instagram.com/sripalibridalstudio" target="_blank" rel="noopener noreferrer" style={{ background: 'rgba(212, 175, 55, 0.1)', padding: '0.8rem', borderRadius: '50%', color: 'var(--color-gold)', display: 'flex', alignItems: 'center', justifyContent: 'center', transition: 'all 0.3s' }}>
                                         <Instagram size={20} />
                                     </a>
@@ -109,7 +109,7 @@ const Contact = () => {
                             {/* Embedded Map */}
                             <div style={{ borderRadius: '12px', overflow: 'hidden', height: '300px', border: '1px solid rgba(255,255,255,0.1)' }}>
                                 <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.152865766289!2d80.245592!3d13.089531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265fa3632cb7f%3A0xc39cfabc4fb142a5!2sBuhari!5e0!3m2!1sen!2sin!4v1715401019672!5m2!1sen!2sin"
+                                    src="https://maps.google.com/maps?q=Sripali%20Beauty%20saloon%20-%20Best%20Bridal%20Makeup%20Artist%20in%20Chennai&t=&z=17&ie=UTF8&iwloc=&output=embed"
                                     width="100%"
                                     height="100%"
                                     style={{ border: 0 }}

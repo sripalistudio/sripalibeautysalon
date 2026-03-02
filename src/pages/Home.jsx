@@ -78,10 +78,18 @@ const Home = () => {
                     >
                         Sripali Beauty Salon
                     </motion.h1>
-                    <motion.div variants={fadeInUp}>
+                    <motion.div variants={fadeInUp} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1.5rem' }}>
                         <Link to="/booking" className="btn-primary">
                             Begin Your Journey
                         </Link>
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}>
+                            <p style={{ color: '#fff', fontSize: '1.1rem', fontWeight: '500', maxWidth: '600px', margin: '0 auto', letterSpacing: '0.05em' }}>
+                                Monthly and weekly offers available all time, so kindly enquire!
+                            </p>
+                            <a href="https://wa.me/919841428097" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ background: '#25D366', color: '#fff', border: 'none' }}>
+                                Enquire Now
+                            </a>
+                        </div>
                     </motion.div>
                 </div>
             </section>
